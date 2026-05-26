@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+
+# Database (your personal data, don't commit this)
+server/db.json
+
+# React build output
+client/build/
+
+# Environment variables (if you add any later)
+.env
+.env.local
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
