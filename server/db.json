@@ -1,4 +1,25 @@
 {
-  "subscriptions": [],
-  "nextId": 2
+  "subscriptions": [
+    {
+      "id": 2,
+      "name": "Test",
+      "amount": 3,
+      "billing_cycle": "monthly",
+      "start_date": "2026-05-27",
+      "category": "Other",
+      "color": "#6b7280",
+      "created_at": "2026-05-27T09:21:25.612Z"
+    },
+    {
+      "id": 3,
+      "name": "Netflix",
+      "amount": 20,
+      "billing_cycle": "monthly",
+      "start_date": "2026-05-13",
+      "category": "Streaming",
+      "color": "#e50914",
+      "created_at": "2026-05-27T09:45:47.402Z"
+    }
+  ],
+  "nextId": 4
 }
