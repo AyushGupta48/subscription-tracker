@@ -17,7 +17,8 @@ const adapter = new FileSync(path.join(__dirname, "db.json"));
 const db = low(adapter);
 
 // Set default structure
-db.defaults({ subscriptions: [], nextId: 1 }).write();
+if (!db.has("subscriptions").value()) db.set("subscriptions", []).write();
+if (!db.has("nextId").value()) db.set("nextId", 1).write();
 
 // Helper: calculate next billing date
 function getNextBillingDate(startDate, billingCycle) {

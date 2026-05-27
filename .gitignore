@@ -1,8 +1,6 @@
 # Dependencies
 node_modules/
 
-# Database (your personal data, don't commit this)
-server/db.json
 
 # React build output
 client/build/
